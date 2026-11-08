@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "gG",
+      "type": "group",
+      "x": -80,
+      "y": -60,
+      "width": 1080,
+      "height": 330,
+      "label": "종지기 길드",
+      "color": "5"
+    },
+    {
+      "id": "리안",
+      "type": "file",
+      "file": "10 인물/리안.md",
+      "x": 0,
+      "y": 40,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "도란",
+      "type": "file",
+      "file": "10 인물/도란 베스트.md",
+      "x": 360,
+      "y": 40,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "에스벤",
+      "type": "file",
+      "file": "10 인물/에스벤.md",
+      "x": 720,
+      "y": 40,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "미리",
+      "type": "file",
+      "file": "10 인물/미리.md",
+      "x": 0,
+      "y": 420,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "핀",
+      "type": "file",
+      "file": "10 인물/핀.md",
+      "x": 360,
+      "y": 420,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "마르가",
+      "type": "file",
+      "file": "10 인물/마르가.md",
+      "x": 720,
+      "y": 420,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "오렐리",
+      "type": "file",
+      "file": "10 인물/오렐리 크라운.md",
+      "x": 1160,
+      "y": 40,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "노에",
+      "type": "file",
+      "file": "10 인물/노에.md",
+      "x": 1160,
+      "y": 420,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "범례",
+      "type": "text",
+      "text": "## 읽는 법\n선 위의 글자가 두 사람의 관계다. 보라 상자는 종지기 길드 소속이다. 인물 카드를 더블클릭하면 노트가 열린다.",
+      "x": 1160,
+      "y": -200,
+      "width": 360,
+      "height": 150,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "리안",
+      "fromSide": "right",
+      "toNode": "도란",
+      "toSide": "left",
+      "label": "스승",
+      "color": "5"
+    },
+    {
+      "id": "e2",
+      "fromNode": "도란",
+      "fromSide": "right",
+      "toNode": "에스벤",
+      "toSide": "left",
+      "label": "옛 동료",
+      "color": "5"
+    },
+    {
+      "id": "e3",
+      "fromNode": "리안",
+      "fromSide": "bottom",
+      "toNode": "미리",
+      "toSide": "top",
+      "label": "남매",
+      "color": "1"
+    },
+    {
+      "id": "e4",
+      "fromNode": "미리",
+      "fromSide": "right",
+      "toNode": "핀",
+      "toSide": "left",
+      "label": "약 재료 거래",
+      "color": "4"
+    },
+    {
+      "id": "e5",
+      "fromNode": "핀",
+      "fromSide": "right",
+      "toNode": "마르가",
+      "toSide": "left",
+      "label": "잔심부름",
+      "color": "4"
+    },
+    {
+      "id": "e6",
+      "fromNode": "마르가",
+      "fromSide": "top",
+      "toNode": "에스벤",
+      "toSide": "bottom",
+      "label": "마지막 승선 소문",
+      "color": "2"
+    },
+    {
+      "id": "e7",
+      "fromNode": "도란",
+      "fromSide": "right",
+      "toNode": "오렐리",
+      "toSide": "left",
+      "label": "장부로 대립",
+      "color": "1"
+    },
+    {
+      "id": "e8",
+      "fromNode": "오렐리",
+      "fromSide": "bottom",
+      "toNode": "노에",
+      "toSide": "top",
+      "label": "예산 비밀 후원",
+      "color": "3"
+    },
+    {
+      "id": "e9",
+      "fromNode": "에스벤",
+      "fromSide": "right",
+      "toNode": "노에",
+      "toSide": "left",
+      "label": "도면 조각",
+      "color": "2"
+    },
+    {
+      "id": "e10",
+      "fromNode": "리안",
+      "fromSide": "bottom",
+      "toNode": "핀",
+      "toSide": "left",
+      "label": "첫 거래",
+      "color": "4"
+    }
+  ]
+}

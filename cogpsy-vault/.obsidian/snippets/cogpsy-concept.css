@@ -1,0 +1,30 @@
+/* 개념 노트 정보 상자와 시험 질문 강조. 내용은 건드리지 않고 겉모습만 바꾼다. */
+.theme-light { --cp-q: 76, 125, 240; }
+.theme-dark  { --cp-q: 120, 160, 255; }
+
+/* 속성(분야, 제안자, 연도, 주차)을 얇은 정보 상자로 */
+.metadata-container {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 6px 12px;
+  margin-bottom: 1.2em;
+}
+.metadata-property-key { color: var(--text-faint); font-size: 0.85em; }
+
+/* 「시험에 나올 질문」 섹션: 읽기 화면에서 헤딩 아래 목록을 노란 카드로 */
+h2[data-heading="시험에 나올 질문"] {
+  color: rgb(var(--cp-q));
+  border-bottom: 2px solid rgba(var(--cp-q), 0.35);
+  padding-bottom: 2px;
+}
+h2[data-heading="시험에 나올 질문"] + ol {
+  background: rgba(var(--cp-q), 0.08);
+  border-left: 4px solid rgb(var(--cp-q));
+  border-radius: 0 10px 10px 0;
+  padding: 10px 14px 10px 2.2em;
+}
+/* 「내 생각」은 사람이 쓰는 칸이라는 표시 */
+h2[data-heading="내 생각"] { color: var(--text-accent); }
+/* 편집(라이브 프리뷰)에서도 헤딩 색만 맞춘다 */
+.markdown-source-view.mod-cm6 .HyperMD-header-2 { letter-spacing: -0.01em; }

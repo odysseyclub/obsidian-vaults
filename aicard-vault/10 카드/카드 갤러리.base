@@ -1,0 +1,34 @@
+filters:
+  and:
+    - file.inFolder("10 카드")
+    - file.ext == "md"
+properties:
+  note.목적:
+    displayName: 목적
+  note.도구:
+    displayName: 도구
+  note.난이도:
+    displayName: 난이도
+  note.작성자:
+    displayName: 작성자
+views:
+  - type: cards
+    name: 카드 갤러리
+    order:
+      - file.name
+      - note.목적
+      - note.도구
+      - note.난이도
+    sort:
+      - property: note.목적
+        direction: ASC
+  - type: cards
+    name: 처음 해 볼 카드 (쉬움)
+    filters:
+      and:
+        - note.난이도 == "쉬움"
+    order:
+      - file.name
+      - note.목적
+      - note.도구
+      - note.난이도

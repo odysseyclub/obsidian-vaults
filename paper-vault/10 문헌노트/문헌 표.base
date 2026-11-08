@@ -1,0 +1,53 @@
+filters:
+  and:
+    - file.inFolder("10 문헌노트")
+    - file.ext == "md"
+properties:
+  note.저자:
+    displayName: 저자
+  note.연도:
+    displayName: 연도
+  note.읽음:
+    displayName: 읽음 상태
+  note.변인:
+    displayName: 관련 변인
+  note.실존:
+    displayName: 실존 여부
+views:
+  - type: table
+    name: 연도순
+    order:
+      - file.name
+      - note.저자
+      - note.연도
+      - note.읽음
+      - note.변인
+      - note.실존
+    sort:
+      - property: note.연도
+        direction: ASC
+  - type: table
+    name: 읽음 상태별
+    groupBy:
+      property: note.읽음
+      direction: ASC
+    order:
+      - file.name
+      - note.연도
+      - note.변인
+    sort:
+      - property: note.연도
+        direction: ASC
+  - type: table
+    name: 변인별
+    groupBy:
+      property: note.변인
+      direction: ASC
+    order:
+      - file.name
+      - note.연도
+      - note.읽음
+      - note.실존
+    sort:
+      - property: note.연도
+        direction: ASC

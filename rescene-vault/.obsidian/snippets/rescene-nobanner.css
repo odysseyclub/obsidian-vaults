@@ -1,0 +1,2 @@
+/* Prism 테마의 "Style Settings Plugin is required" 배너를 숨긴다. 이 볼트는 커뮤니티 플러그인을 쓰지 않는다. */
+body:not(.css-settings-manager) .workspace-split.mod-left-split::before { display: none; }

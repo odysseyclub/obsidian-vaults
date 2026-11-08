@@ -1,0 +1,389 @@
+{
+  "nodes": [
+    {
+      "id": "home",
+      "type": "file",
+      "file": "00 대문/대문.md",
+      "x": 570,
+      "y": -600,
+      "width": 340,
+      "height": 60
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "30 원칙/AI 없이 먼저 하기.md",
+      "x": 0,
+      "y": -400,
+      "width": 340,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "30 원칙/검증하기.md",
+      "x": 380,
+      "y": -400,
+      "width": 340,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "30 원칙/출처 표기.md",
+      "x": 760,
+      "y": -400,
+      "width": 340,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "30 원칙/개인정보 넣지 않기.md",
+      "x": 1140,
+      "y": -400,
+      "width": 340,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "g0",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 400,
+      "label": "정리",
+      "color": "1"
+    },
+    {
+      "id": "c0_0",
+      "type": "file",
+      "file": "10 카드/과제 자료 정리.md",
+      "x": 40,
+      "y": 60,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c0_1",
+      "type": "file",
+      "file": "10 카드/회의록 정리.md",
+      "x": 40,
+      "y": 140,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c0_2",
+      "type": "file",
+      "file": "10 카드/강의 녹취 요약.md",
+      "x": 40,
+      "y": 220,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "x": 520,
+      "y": 0,
+      "width": 480,
+      "height": 400,
+      "label": "공부",
+      "color": "5"
+    },
+    {
+      "id": "c1_0",
+      "type": "file",
+      "file": "10 카드/시험 문제 만들기.md",
+      "x": 560,
+      "y": 60,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c1_1",
+      "type": "file",
+      "file": "10 카드/개념 비유로 설명받기.md",
+      "x": 560,
+      "y": 140,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "x": 1040,
+      "y": 0,
+      "width": 480,
+      "height": 400,
+      "label": "글쓰기",
+      "color": "4"
+    },
+    {
+      "id": "c2_0",
+      "type": "file",
+      "file": "10 카드/발표 대본 다듬기.md",
+      "x": 1080,
+      "y": 60,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c2_1",
+      "type": "file",
+      "file": "10 카드/보고서 목차 잡기.md",
+      "x": 1080,
+      "y": 140,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c2_2",
+      "type": "file",
+      "file": "10 카드/영어 이메일 다듬기.md",
+      "x": 1080,
+      "y": 220,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c2_3",
+      "type": "file",
+      "file": "10 카드/동아리 공지문 초안.md",
+      "x": 1080,
+      "y": 300,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "x": 0,
+      "y": 480,
+      "width": 480,
+      "height": 330,
+      "label": "데이터",
+      "color": "2"
+    },
+    {
+      "id": "c3_0",
+      "type": "file",
+      "file": "10 카드/엑셀 함수 찾기.md",
+      "x": 40,
+      "y": 540,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c3_1",
+      "type": "file",
+      "file": "10 카드/설문 문항 점검.md",
+      "x": 40,
+      "y": 620,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "c3_2",
+      "type": "file",
+      "file": "10 카드/통계 결과 해석 보조.md",
+      "x": 40,
+      "y": 700,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "x": 520,
+      "y": 480,
+      "width": 480,
+      "height": 330,
+      "label": "읽기",
+      "color": "3"
+    },
+    {
+      "id": "c4_0",
+      "type": "file",
+      "file": "10 카드/영어 논문 요약 검산.md",
+      "x": 560,
+      "y": 540,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "x": 1040,
+      "y": 480,
+      "width": 480,
+      "height": 330,
+      "label": "조사",
+      "color": "6"
+    },
+    {
+      "id": "c5_0",
+      "type": "file",
+      "file": "10 카드/출처 찾기.md",
+      "x": 1080,
+      "y": 540,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "x": 0,
+      "y": 890,
+      "width": 480,
+      "height": 180,
+      "label": "계획",
+      "color": "1"
+    },
+    {
+      "id": "c6_0",
+      "type": "file",
+      "file": "10 카드/일정 쪼개기.md",
+      "x": 40,
+      "y": 950,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "x": 520,
+      "y": 890,
+      "width": 480,
+      "height": 180,
+      "label": "코딩",
+      "color": "5"
+    },
+    {
+      "id": "c7_0",
+      "type": "file",
+      "file": "10 카드/코드 에러 해석.md",
+      "x": 560,
+      "y": 950,
+      "width": 400,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "x": 1040,
+      "y": 890,
+      "width": 480,
+      "height": 180,
+      "label": "말하기",
+      "color": "4"
+    },
+    {
+      "id": "c8_0",
+      "type": "file",
+      "file": "10 카드/면접 연습.md",
+      "x": 1080,
+      "y": 950,
+      "width": 400,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "eh0",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "eh1",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "eh2",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "eh3",
+      "fromNode": "home",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "el0",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top"
+    },
+    {
+      "id": "el1",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "g5",
+      "toSide": "top"
+    },
+    {
+      "id": "el2",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top"
+    },
+    {
+      "id": "el3",
+      "fromNode": "p1",
+      "fromSide": "bottom",
+      "toNode": "g7",
+      "toSide": "top"
+    },
+    {
+      "id": "el4",
+      "fromNode": "p3",
+      "fromSide": "bottom",
+      "toNode": "g0",
+      "toSide": "top"
+    },
+    {
+      "id": "el5",
+      "fromNode": "p2",
+      "fromSide": "bottom",
+      "toNode": "g5",
+      "toSide": "top"
+    },
+    {
+      "id": "el6",
+      "fromNode": "p2",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "top"
+    },
+    {
+      "id": "el7",
+      "fromNode": "p0",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top"
+    },
+    {
+      "id": "el8",
+      "fromNode": "p0",
+      "fromSide": "bottom",
+      "toNode": "g8",
+      "toSide": "top"
+    }
+  ]
+}

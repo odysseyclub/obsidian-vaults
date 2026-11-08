@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "t0",
+      "type": "text",
+      "text": "### 오르넬력 1년\n오르넬 선포\n첫째 종 설치",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "### 오르넬력 97년\n백일 안개\n인구 절반 감소",
+      "x": 380,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "text": "### 오르넬력 131년\n아홉 종탑 완성",
+      "x": 760,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "text": "### 오르넬력 248년\n풍차공방 조합 창설",
+      "x": 1140,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "text": "### 오르넬력 288년\n침묵의 밤\n아홉째 종 멈춤\n에스벤 실종",
+      "x": 1520,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t5",
+      "type": "text",
+      "text": "### 오르넬력 295년\n안개열 첫 환자 보고",
+      "x": 1900,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t6",
+      "type": "text",
+      "text": "### 오르넬력 299년\n미리 발병\n(겨울)",
+      "x": 2280,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "1"
+    },
+    {
+      "id": "t7",
+      "type": "text",
+      "text": "### 오르넬력 300년 가을\n1화 시작\n리안이 낮은 울림을 듣는다",
+      "x": 2660,
+      "y": 0,
+      "width": 320,
+      "height": 150,
+      "color": "4"
+    },
+    {
+      "id": "n1",
+      "type": "file",
+      "file": "10 인물/에스벤.md",
+      "x": 1520,
+      "y": 300,
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "file": "10 인물/미리.md",
+      "x": 2280,
+      "y": 300,
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "file": "20 장소와 세력/아홉 종탑.md",
+      "x": 760,
+      "y": 300,
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "file": "20 장소와 세력/풍차공방 조합.md",
+      "x": 1140,
+      "y": 300,
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "file": "10 인물/리안.md",
+      "x": 2660,
+      "y": 300,
+      "width": 320,
+      "height": 64
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "text": "12년 간격 확인: 288년에서 300년까지가 12년이다.\n[[세계관 일관성 점검]]의 수치 정본과 같다.",
+      "x": 0,
+      "y": 300,
+      "width": 320,
+      "height": 110,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "l1",
+      "fromNode": "t0",
+      "fromSide": "right",
+      "toNode": "t1",
+      "toSide": "left"
+    },
+    {
+      "id": "l2",
+      "fromNode": "t1",
+      "fromSide": "right",
+      "toNode": "t2",
+      "toSide": "left"
+    },
+    {
+      "id": "l3",
+      "fromNode": "t2",
+      "fromSide": "right",
+      "toNode": "t3",
+      "toSide": "left"
+    },
+    {
+      "id": "l4",
+      "fromNode": "t3",
+      "fromSide": "right",
+      "toNode": "t4",
+      "toSide": "left"
+    },
+    {
+      "id": "l5",
+      "fromNode": "t4",
+      "fromSide": "right",
+      "toNode": "t5",
+      "toSide": "left"
+    },
+    {
+      "id": "l6",
+      "fromNode": "t5",
+      "fromSide": "right",
+      "toNode": "t6",
+      "toSide": "left"
+    },
+    {
+      "id": "l7",
+      "fromNode": "t6",
+      "fromSide": "right",
+      "toNode": "t7",
+      "toSide": "left"
+    },
+    {
+      "id": "c1",
+      "fromNode": "t4",
+      "fromSide": "bottom",
+      "toNode": "n1",
+      "toSide": "top",
+      "label": "실종"
+    },
+    {
+      "id": "c2",
+      "fromNode": "t6",
+      "fromSide": "bottom",
+      "toNode": "n2",
+      "toSide": "top"
+    },
+    {
+      "id": "c3",
+      "fromNode": "t2",
+      "fromSide": "bottom",
+      "toNode": "n3",
+      "toSide": "top"
+    },
+    {
+      "id": "c4",
+      "fromNode": "t3",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    },
+    {
+      "id": "c5",
+      "fromNode": "t7",
+      "fromSide": "bottom",
+      "toNode": "n5",
+      "toSide": "top"
+    }
+  ]
+}

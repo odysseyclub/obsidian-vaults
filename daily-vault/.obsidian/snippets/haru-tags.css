@@ -1,0 +1,12 @@
+/* 기분 태그를 파스텔 알약으로. 읽기 화면의 본문 태그에 적용 */
+a.tag[href^="#기분/"] {
+  border-radius: 999px;
+  padding: 1px 10px;
+  font-weight: 600;
+  border: 1px solid transparent;
+}
+a.tag[href="#기분/좋음"]  { background: #d7f2d3; color: #3d7a37; }
+a.tag[href="#기분/설렘"]  { background: #ffe0ec; color: #b2406e; }
+a.tag[href="#기분/차분"]  { background: #d9e8fb; color: #3f6aa8; }
+a.tag[href="#기분/보통"]  { background: #f1ecdf; color: #7a6b45; }
+a.tag[href="#기분/지침"]  { background: #e6dcf5; color: #6b4ea1; }

@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "title",
+      "type": "text",
+      "text": "# 졸업논문 구조\n소셜미디어 사용과 주의 지속 (가상 설계)",
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 110,
+      "color": "3"
+    },
+    {
+      "id": "s1",
+      "type": "file",
+      "file": "40 초고/서론 초안.md",
+      "x": 0,
+      "y": 200,
+      "width": 300,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "s2",
+      "type": "file",
+      "file": "40 초고/이론적 배경 초안.md",
+      "x": 0,
+      "y": 340,
+      "width": 300,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "s3",
+      "type": "file",
+      "file": "40 초고/방법 초안.md",
+      "x": 0,
+      "y": 480,
+      "width": 300,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "s4",
+      "type": "text",
+      "text": "**결과** (자료 수집 전이라 비워 둠)",
+      "x": 0,
+      "y": 620,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "s5",
+      "type": "text",
+      "text": "**논의** (비워 둠)",
+      "x": 0,
+      "y": 760,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "v",
+      "type": "file",
+      "file": "30 방법/변인 정리.md",
+      "x": 500,
+      "y": 340,
+      "width": 300,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "q",
+      "type": "file",
+      "file": "30 방법/설문 설계.md",
+      "x": 500,
+      "y": 480,
+      "width": 300,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "p",
+      "type": "file",
+      "file": "30 방법/표본 가정.md",
+      "x": 500,
+      "y": 620,
+      "width": 300,
+      "height": 60,
+      "color": "4"
+    },
+    {
+      "id": "c1",
+      "type": "file",
+      "file": "20 개념/지속 주의.md",
+      "x": 500,
+      "y": 200,
+      "width": 300,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "m",
+      "type": "file",
+      "file": "50 지도/선행연구 지도.canvas",
+      "x": 1000,
+      "y": 340,
+      "width": 300,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "tab",
+      "type": "file",
+      "file": "10 문헌노트/문헌 표.base",
+      "x": 1000,
+      "y": 200,
+      "width": 300,
+      "height": 60,
+      "color": "2"
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "text": "각 절의 근거가 어느 노트에 있는지 선으로 이었다. 선이 없는 상자는 아직 근거가 없다는 뜻이다.",
+      "x": 1000,
+      "y": 520,
+      "width": 300,
+      "height": 120
+    }
+  ],
+  "edges": [
+    {
+      "id": "a1",
+      "fromNode": "title",
+      "fromSide": "bottom",
+      "toNode": "s1",
+      "toSide": "top"
+    },
+    {
+      "id": "a2",
+      "fromNode": "s1",
+      "fromSide": "bottom",
+      "toNode": "s2",
+      "toSide": "top"
+    },
+    {
+      "id": "a3",
+      "fromNode": "s2",
+      "fromSide": "bottom",
+      "toNode": "s3",
+      "toSide": "top"
+    },
+    {
+      "id": "a4",
+      "fromNode": "s3",
+      "fromSide": "bottom",
+      "toNode": "s4",
+      "toSide": "top"
+    },
+    {
+      "id": "a5",
+      "fromNode": "s4",
+      "fromSide": "bottom",
+      "toNode": "s5",
+      "toSide": "top"
+    },
+    {
+      "id": "b1",
+      "fromNode": "c1",
+      "fromSide": "left",
+      "toNode": "s1",
+      "toSide": "right",
+      "label": "질문 정의"
+    },
+    {
+      "id": "b2",
+      "fromNode": "m",
+      "fromSide": "left",
+      "toNode": "s2",
+      "toSide": "right",
+      "label": "선행연구 정리"
+    },
+    {
+      "id": "b3",
+      "fromNode": "tab",
+      "fromSide": "bottom",
+      "toNode": "s2",
+      "toSide": "right",
+      "label": "읽은 논문"
+    },
+    {
+      "id": "b4",
+      "fromNode": "v",
+      "fromSide": "left",
+      "toNode": "s3",
+      "toSide": "right",
+      "label": "변인"
+    },
+    {
+      "id": "b5",
+      "fromNode": "q",
+      "fromSide": "left",
+      "toNode": "s3",
+      "toSide": "right",
+      "label": "측정"
+    },
+    {
+      "id": "b6",
+      "fromNode": "p",
+      "fromSide": "left",
+      "toNode": "s3",
+      "toSide": "right",
+      "label": "대상"
+    }
+  ]
+}

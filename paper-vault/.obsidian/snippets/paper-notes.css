@@ -1,0 +1,28 @@
+/* 속성 상자, 제목, 초고 노트, 문헌 노트의 겉모습. 내용은 건드리지 않는다. */
+.metadata-container {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-bottom: 1.2em;
+}
+.metadata-property-key { color: var(--text-faint); font-size: 0.85em; }
+
+/* 제목 아래 가는 줄 */
+.markdown-preview-view h1 {
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 0.2em;
+  letter-spacing: -0.01em;
+}
+
+/* 초고 노트(cssclasses: draft): 줄 쳐진 종이 */
+.draft.markdown-preview-view .markdown-preview-sizer,
+.draft .cm-content {
+  background-image: repeating-linear-gradient(transparent, transparent 1.74em, rgba(168, 117, 79, 0.10) 1.74em, rgba(168, 117, 79, 0.10) calc(1.74em + 1px));
+}
+
+/* 문헌 노트(cssclasses: lit): 제목 색을 포인트 색으로 */
+.lit h1 { color: var(--text-accent); }
+
+/* 각주 번호 */
+.markdown-preview-view sup.footnote-ref a { color: var(--text-accent); }

@@ -1,0 +1,15 @@
+/* 대문 히어로: 첫 callout [!hero]를 그라데이션 배너로 (이미지 없음) */
+.callout[data-callout="hero"] {
+  --callout-icon: none;
+  background: linear-gradient(135deg, #2a1650 0%, #6a3bb8 45%, #e8589c 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 28px 32px;
+  margin: 0.5em 0 1.5em;
+  box-shadow: 0 8px 28px rgba(185, 131, 255, 0.28);
+}
+.callout[data-callout="hero"] .callout-icon { display: none; }
+.callout[data-callout="hero"] .callout-title { color: #fff; font-size: 2.1em; font-weight: 800; letter-spacing: 0.04em; }
+.callout[data-callout="hero"] .callout-content,
+.callout[data-callout="hero"] .callout-content p { color: rgba(255,255,255,0.88); font-size: 1.02em; margin: 0.2em 0; }
+.callout[data-callout="hero"] a { color: #ffe3f1; }

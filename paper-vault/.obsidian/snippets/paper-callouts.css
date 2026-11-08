@@ -1,0 +1,34 @@
+/* 인용 블록(cite)과 논점 카드(point) 콜아웃.
+   쓰는 법:  > [!cite] 제목     > [!point] 제목 */
+.theme-light { --pp-cite: 120, 100, 80; --pp-point: 168, 117, 79; }
+.theme-dark  { --pp-cite: 200, 180, 160; --pp-point: 214, 165, 120; }
+
+/* 인용 블록: 책 속 인용구 느낌. 왼쪽 선과 큰 따옴표 */
+.callout[data-callout="cite"] {
+  --callout-color: var(--pp-cite);
+  --callout-icon: lucide-quote;
+  background: transparent;
+  border: none;
+  border-left: 3px solid rgba(var(--pp-cite), 0.55);
+  border-radius: 0;
+  padding: 4px 4px 4px 18px;
+  font-style: italic;
+}
+.callout[data-callout="cite"] .callout-title { font-style: normal; font-size: 0.85em; color: var(--text-muted); }
+.callout[data-callout="cite"] .callout-content { color: var(--text-normal); }
+
+/* 논점 카드: 종이 카드처럼 그림자와 위쪽 띠 */
+.callout[data-callout="point"] {
+  --callout-color: var(--pp-point);
+  --callout-icon: lucide-lightbulb;
+  background: var(--background-primary);
+  border: 1px solid rgba(var(--pp-point), 0.35);
+  border-top: 5px solid rgb(var(--pp-point));
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(60, 40, 20, 0.10);
+  padding: 10px 16px;
+}
+.callout[data-callout="point"] .callout-title { font-weight: 700; color: rgb(var(--pp-point)); }
+
+/* 사람이 채우는 칸(note)은 점선으로 비어 있음을 보이게 */
+.callout[data-callout="note"] { border-style: dashed; }

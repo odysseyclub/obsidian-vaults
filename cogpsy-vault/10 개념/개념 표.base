@@ -1,0 +1,44 @@
+filters:
+  and:
+    - file.inFolder("10 개념")
+    - file.ext == "md"
+properties:
+  note.분야:
+    displayName: 분야
+  note.제안자:
+    displayName: 제안자
+  note.연도:
+    displayName: 연도
+  note.주차:
+    displayName: 주차
+  note.source:
+    displayName: 출처 유형
+views:
+  - type: table
+    name: 분야별
+    groupBy:
+      property: note.분야
+      direction: ASC
+    order:
+      - file.name
+      - note.제안자
+      - note.연도
+      - note.주차
+      - note.source
+    sort:
+      - property: note.연도
+        direction: ASC
+  - type: table
+    name: 주차별
+    groupBy:
+      property: note.주차
+      direction: ASC
+    order:
+      - file.name
+      - note.분야
+      - note.제안자
+      - note.연도
+      - note.source
+    sort:
+      - property: note.연도
+        direction: ASC

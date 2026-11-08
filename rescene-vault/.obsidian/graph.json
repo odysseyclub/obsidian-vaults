@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"00 대문\"",
+      "color": {
+        "a": 1,
+        "rgb": 15227036
+      }
+    },
+    {
+      "query": "path:\"10 멤버\"",
+      "color": {
+        "a": 1,
+        "rgb": 16748472
+      }
+    },
+    {
+      "query": "path:\"20 디스코그래피/앨범\"",
+      "color": {
+        "a": 1,
+        "rgb": 10185727
+      }
+    },
+    {
+      "query": "path:\"20 디스코그래피/곡\"",
+      "color": {
+        "a": 1,
+        "rgb": 13215999
+      }
+    },
+    {
+      "query": "path:\"30 무대와 콘텐츠\"",
+      "color": {
+        "a": 1,
+        "rgb": 6080767
+      }
+    },
+    {
+      "query": "path:\"40 콘셉트와 세계관\"",
+      "color": {
+        "a": 1,
+        "rgb": 7332801
+      }
+    },
+    {
+      "query": "path:\"50 타임라인\"",
+      "color": {
+        "a": 1,
+        "rgb": 16762967
+      }
+    },
+    {
+      "query": "path:\"90 템플릿\"",
+      "color": {
+        "a": 1,
+        "rgb": 7039867
+      }
+    },
+    {
+      "query": "path:\"99 참고\"",
+      "color": {
+        "a": 1,
+        "rgb": 9342624
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.5,
+  "nodeSizeMultiplier": 1.5,
+  "lineSizeMultiplier": 0.8,
+  "collapse-forces": false,
+  "centerStrength": 0.5,
+  "repelStrength": 14,
+  "linkStrength": 0.9,
+  "linkDistance": 140,
+  "scale": 1,
+  "close": false
+}

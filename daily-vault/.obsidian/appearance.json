@@ -1,0 +1,11 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "moonstone",
+  "accentColor": "#a78bda",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "haru-tags",
+    "haru-daily"
+  ],
+  "translucency": false
+}

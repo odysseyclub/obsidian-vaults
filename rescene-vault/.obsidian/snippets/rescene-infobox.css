@@ -1,0 +1,20 @@
+/* 위키 정보 상자: 속성 영역을 카드로 */
+.markdown-preview-view .metadata-container,
+.markdown-source-view.mod-cm6 .metadata-container {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-top: 3px solid var(--interactive-accent);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 0 0 1.2em;
+  font-size: 0.85em;
+}
+.metadata-container .metadata-property { border-bottom: 1px dashed var(--background-modifier-border); }
+.metadata-container .metadata-property:last-child { border-bottom: none; }
+.metadata-container .metadata-property-key { color: var(--text-muted); font-weight: 600; }
+.metadata-container .metadata-properties-heading { color: var(--interactive-accent); }
+/* 넓은 창에서는 우측 상단 정보 상자 */
+@container (min-width: 900px) {
+  .markdown-preview-view:not(.rescene-home) .metadata-container { float: right; width: 300px; margin: 0 0 1em 1.5em; }
+}
+.markdown-preview-view .markdown-preview-sizer { container-type: inline-size; }

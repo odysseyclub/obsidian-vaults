@@ -1,0 +1,21 @@
+/* River의 한 줄: 손글씨 느낌 인용 카드 / 확인 필요: 조용한 경고 */
+.callout[data-callout="quote"] {
+  --callout-color: 255, 160, 200;
+  background: rgba(255, 160, 200, 0.07);
+  border: none;
+  border-left: 4px solid rgb(255, 160, 200);
+  border-radius: 4px 14px 14px 4px;
+  font-style: italic;
+}
+.callout[data-callout="quote"] .callout-title { font-style: normal; font-weight: 700; font-size: 0.9em; }
+.callout[data-callout="warning"] {
+  --callout-color: 200, 170, 90;
+  background: transparent;
+  border: 1px dashed rgba(200, 170, 90, 0.5);
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.88em;
+  opacity: 0.85;
+}
+.callout[data-callout="warning"] .callout-title { padding: 2px 0; font-size: 0.95em; }
+.callout[data-callout="warning"] .callout-content { padding: 0 0 4px; }

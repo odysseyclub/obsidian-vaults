@@ -1,0 +1,38 @@
+filters:
+  and:
+    - file.inFolder("10 인물")
+    - file.ext == "md"
+properties:
+  note.역할:
+    displayName: 역할
+  note.소속:
+    displayName: 소속
+  note.나이:
+    displayName: 나이
+  note.상태:
+    displayName: 상태
+  note.첫등장:
+    displayName: 첫 등장(화)
+views:
+  - type: table
+    name: 전체
+    order:
+      - file.name
+      - note.역할
+      - note.소속
+      - note.나이
+      - note.상태
+      - note.첫등장
+    sort:
+      - property: note.첫등장
+        direction: ASC
+  - type: table
+    name: 소속별
+    groupBy:
+      property: note.소속
+      direction: ASC
+    order:
+      - file.name
+      - note.역할
+      - note.나이
+      - note.상태

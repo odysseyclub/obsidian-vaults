@@ -1,0 +1,25 @@
+/* 연재 노트(cssclasses: novel): 소설 읽기용 줄간격과 단락 들여쓰기, 제목 네온 밑줄. */
+.novel .markdown-preview-sizer { max-width: 40rem; }
+.novel.markdown-preview-view p,
+.novel .markdown-preview-view p {
+  line-height: 2;
+  text-indent: 1em;
+  margin-block: 0.4em;
+}
+.novel h1 {
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.45);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.4);
+  padding-bottom: 6px;
+}
+.novel h2[data-heading="초고"] { color: var(--text-accent); }
+.novel h2[data-heading="이어서 쓸 것"] { color: #ffd84a; }
+
+/* 모든 노트: 속성 영역을 어두운 패널로 */
+.metadata-container {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+/* 사람이 채울 칸(작가 한 줄)은 점선 테두리로 눈에 띄게 */
+.callout[data-callout="note"] { border-style: dashed; }

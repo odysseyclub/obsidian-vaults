@@ -1,0 +1,37 @@
+filters:
+  and:
+    - file.inFolder("10 카드")
+    - file.ext == "md"
+properties:
+  note.목적:
+    displayName: 목적
+  note.도구:
+    displayName: 도구
+  note.난이도:
+    displayName: 난이도
+  note.작성자:
+    displayName: 작성자
+views:
+  - type: table
+    name: 도구별
+    groupBy:
+      property: note.도구
+      direction: ASC
+    order:
+      - file.name
+      - note.목적
+      - note.난이도
+      - note.작성자
+    sort:
+      - property: note.목적
+        direction: ASC
+  - type: table
+    name: 목적별
+    groupBy:
+      property: note.목적
+      direction: ASC
+    order:
+      - file.name
+      - note.도구
+      - note.난이도
+      - note.작성자

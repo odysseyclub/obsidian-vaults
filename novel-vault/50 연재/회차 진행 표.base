@@ -1,0 +1,49 @@
+filters:
+  and:
+    - file.inFolder("50 연재")
+    - file.ext == "md"
+formulas:
+  남은글자: 'note["목표글자수"] - note["글자수"]'
+properties:
+  note.화수:
+    displayName: 화
+  note.시점:
+    displayName: 시점
+  note.상태:
+    displayName: 상태
+  note.글자수:
+    displayName: 글자수
+  note.목표글자수:
+    displayName: 목표
+  note.완성도:
+    displayName: 완성도(%)
+  formula.남은글자:
+    displayName: 남은 글자
+views:
+  - type: table
+    name: 진행 표
+    order:
+      - note.화수
+      - file.name
+      - note.시점
+      - note.상태
+      - note.글자수
+      - note.목표글자수
+      - formula.남은글자
+      - note.완성도
+    sort:
+      - property: note.화수
+        direction: ASC
+    summaries:
+      note.글자수: Sum
+      note.완성도: Average
+  - type: table
+    name: 상태별
+    groupBy:
+      property: note.상태
+      direction: ASC
+    order:
+      - note.화수
+      - file.name
+      - note.글자수
+      - note.완성도

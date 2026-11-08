@@ -1,0 +1,37 @@
+filters:
+  and:
+    - file.inFolder("70 주간 진행")
+    - file.ext == "md"
+properties:
+  note.주차:
+    displayName: 주차
+  note.시작일:
+    displayName: 시작일
+  note.상태:
+    displayName: 상태
+  note.읽은 논문:
+    displayName: 읽은 논문
+views:
+  - type: table
+    name: 주차순
+    order:
+      - file.name
+      - note.주차
+      - note.시작일
+      - note.상태
+      - note.읽은 논문
+    sort:
+      - property: note.주차
+        direction: ASC
+  - type: table
+    name: 상태별
+    groupBy:
+      property: note.상태
+      direction: ASC
+    order:
+      - file.name
+      - note.주차
+      - note.읽은 논문
+    sort:
+      - property: note.주차
+        direction: ASC

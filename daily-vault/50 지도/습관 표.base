@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.inFolder("10 데일리")
+    - file.ext == "md"
+formulas:
+  운동여부: 'if(note.운동 > 0, "했음", "쉼")'
+properties:
+  note.수면시간:
+    displayName: 수면(시간)
+  note.운동:
+    displayName: 운동(분)
+  note.독서쪽수:
+    displayName: 독서(쪽)
+  note.공부시간:
+    displayName: 공부(시간)
+  note.기분:
+    displayName: 기분
+  formula.운동여부:
+    displayName: 운동 여부
+views:
+  - type: table
+    name: 습관 표
+    order:
+      - file.name
+      - note.수면시간
+      - note.운동
+      - formula.운동여부
+      - note.독서쪽수
+      - note.공부시간
+      - note.기분
+    sort:
+      - property: file.name
+        direction: ASC
+    summaries:
+      note.수면시간: Average
+      note.운동: Sum
+      note.독서쪽수: Sum
+      note.공부시간: Sum
+  - type: cards
+    name: 하루 카드
+    order:
+      - note.수면시간
+      - note.운동
+      - note.독서쪽수
+      - note.기분
+    sort:
+      - property: file.name
+        direction: DESC

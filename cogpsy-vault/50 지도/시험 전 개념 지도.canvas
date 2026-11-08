@@ -1,0 +1,379 @@
+{
+  "nodes": [
+    {
+      "id": "g1",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 380,
+      "height": 620,
+      "label": "감각·주의",
+      "color": "1"
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "x": 480,
+      "y": 0,
+      "width": 420,
+      "height": 620,
+      "label": "단기·작업기억",
+      "color": "5"
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "x": 960,
+      "y": 0,
+      "width": 1060,
+      "height": 620,
+      "label": "장기기억",
+      "color": "4"
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "x": 960,
+      "y": 720,
+      "width": 1060,
+      "height": 360,
+      "label": "부호화·인출",
+      "color": "6"
+    },
+    {
+      "id": "감각기억",
+      "type": "file",
+      "file": "10 개념/감각기억.md",
+      "x": 40,
+      "y": 120,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "선택적 주의",
+      "type": "file",
+      "file": "10 개념/선택적 주의.md",
+      "x": 40,
+      "y": 280,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "자동 처리와 통제 처리",
+      "type": "file",
+      "file": "10 개념/자동 처리와 통제 처리.md",
+      "x": 40,
+      "y": 440,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "다중저장 모형",
+      "type": "file",
+      "file": "10 개념/다중저장 모형.md",
+      "x": 520,
+      "y": 100,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "단기기억",
+      "type": "file",
+      "file": "10 개념/단기기억.md",
+      "x": 520,
+      "y": 240,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "청킹",
+      "type": "file",
+      "file": "10 개념/청킹.md",
+      "x": 520,
+      "y": 380,
+      "width": 200,
+      "height": 64
+    },
+    {
+      "id": "작업기억",
+      "type": "file",
+      "file": "10 개념/작업기억.md",
+      "x": 520,
+      "y": 520,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "장기기억",
+      "type": "file",
+      "file": "10 개념/장기기억.md",
+      "x": 1000,
+      "y": 260,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "서술기억",
+      "type": "file",
+      "file": "10 개념/서술기억.md",
+      "x": 1340,
+      "y": 160,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "절차기억",
+      "type": "file",
+      "file": "10 개념/절차기억.md",
+      "x": 1340,
+      "y": 400,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "스키마",
+      "type": "file",
+      "file": "10 개념/스키마.md",
+      "x": 1680,
+      "y": 60,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "의미기억",
+      "type": "file",
+      "file": "10 개념/의미기억.md",
+      "x": 1680,
+      "y": 240,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "일화기억",
+      "type": "file",
+      "file": "10 개념/일화기억.md",
+      "x": 1680,
+      "y": 420,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "처리 수준",
+      "type": "file",
+      "file": "10 개념/처리 수준.md",
+      "x": 1000,
+      "y": 800,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "망각 곡선",
+      "type": "file",
+      "file": "10 개념/망각 곡선.md",
+      "x": 1000,
+      "y": 940,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "인출 단서",
+      "type": "file",
+      "file": "10 개념/인출 단서.md",
+      "x": 1680,
+      "y": 800,
+      "width": 300,
+      "height": 64
+    },
+    {
+      "id": "부호화 특수성",
+      "type": "file",
+      "file": "10 개념/부호화 특수성.md",
+      "x": 1680,
+      "y": 940,
+      "width": 300,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "감각기억",
+      "fromSide": "bottom",
+      "toNode": "선택적 주의",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "입력"
+    },
+    {
+      "id": "e1",
+      "fromNode": "선택적 주의",
+      "fromSide": "bottom",
+      "toNode": "자동 처리와 통제 처리",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "발전"
+    },
+    {
+      "id": "e2",
+      "fromNode": "감각기억",
+      "fromSide": "right",
+      "toNode": "단기기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "다음 단계"
+    },
+    {
+      "id": "e3",
+      "fromNode": "다중저장 모형",
+      "fromSide": "bottom",
+      "toNode": "단기기억",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "포함"
+    },
+    {
+      "id": "e4",
+      "fromNode": "청킹",
+      "fromSide": "top",
+      "toNode": "단기기억",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "용량 확장"
+    },
+    {
+      "id": "e5",
+      "fromNode": "단기기억",
+      "fromSide": "right",
+      "toNode": "작업기억",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "발전"
+    },
+    {
+      "id": "e6",
+      "fromNode": "선택적 주의",
+      "fromSide": "right",
+      "toNode": "작업기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "중앙집행기 연결 (제안)"
+    },
+    {
+      "id": "e7",
+      "fromNode": "작업기억",
+      "fromSide": "right",
+      "toNode": "장기기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "정보 전달 (제안)"
+    },
+    {
+      "id": "e8",
+      "fromNode": "장기기억",
+      "fromSide": "right",
+      "toNode": "서술기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "포함"
+    },
+    {
+      "id": "e9",
+      "fromNode": "장기기억",
+      "fromSide": "right",
+      "toNode": "절차기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "포함"
+    },
+    {
+      "id": "e10",
+      "fromNode": "서술기억",
+      "fromSide": "bottom",
+      "toNode": "절차기억",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "대조"
+    },
+    {
+      "id": "e11",
+      "fromNode": "서술기억",
+      "fromSide": "right",
+      "toNode": "의미기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "포함"
+    },
+    {
+      "id": "e12",
+      "fromNode": "서술기억",
+      "fromSide": "right",
+      "toNode": "일화기억",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "포함"
+    },
+    {
+      "id": "e13",
+      "fromNode": "의미기억",
+      "fromSide": "bottom",
+      "toNode": "일화기억",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "대조"
+    },
+    {
+      "id": "e14",
+      "fromNode": "스키마",
+      "fromSide": "bottom",
+      "toNode": "의미기억",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "관련 (제안)"
+    },
+    {
+      "id": "e15",
+      "fromNode": "처리 수준",
+      "fromSide": "right",
+      "toNode": "다중저장 모형",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "대조"
+    },
+    {
+      "id": "e16",
+      "fromNode": "처리 수준",
+      "fromSide": "bottom",
+      "toNode": "망각 곡선",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "설명 (제안)"
+    },
+    {
+      "id": "e17",
+      "fromNode": "처리 수준",
+      "fromSide": "top",
+      "toNode": "장기기억",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "결과 (제안)"
+    },
+    {
+      "id": "e18",
+      "fromNode": "부호화 특수성",
+      "fromSide": "top",
+      "toNode": "인출 단서",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "근거"
+    },
+    {
+      "id": "e19",
+      "fromNode": "인출 단서",
+      "fromSide": "top",
+      "toNode": "일화기억",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "적용"
+    }
+  ]
+}

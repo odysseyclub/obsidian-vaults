@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": "g41",
+      "type": "group",
+      "x": 0,
+      "y": 0,
+      "width": 520,
+      "height": 900,
+      "label": "첫째 주 (W41)",
+      "color": "6"
+    },
+    {
+      "id": "g42",
+      "type": "group",
+      "x": 600,
+      "y": 0,
+      "width": 520,
+      "height": 900,
+      "label": "둘째 주 (W42)",
+      "color": "5"
+    },
+    {
+      "id": "g43",
+      "type": "group",
+      "x": 1200,
+      "y": 0,
+      "width": 520,
+      "height": 900,
+      "label": "셋째 주 (W43)",
+      "color": "4"
+    },
+    {
+      "id": "w41",
+      "type": "file",
+      "file": "20 주간/2026-W41 주간회고.md",
+      "x": 40,
+      "y": 80,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d410",
+      "type": "file",
+      "file": "10 데일리/2026-10-05.md",
+      "x": 40,
+      "y": 260,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d411",
+      "type": "file",
+      "file": "10 데일리/2026-10-08.md",
+      "x": 40,
+      "y": 440,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d412",
+      "type": "file",
+      "file": "10 데일리/2026-10-09.md",
+      "x": 40,
+      "y": 620,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "w42",
+      "type": "file",
+      "file": "20 주간/2026-W42 주간회고.md",
+      "x": 640,
+      "y": 80,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d420",
+      "type": "file",
+      "file": "10 데일리/2026-10-13.md",
+      "x": 640,
+      "y": 260,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d421",
+      "type": "file",
+      "file": "10 데일리/2026-10-14.md",
+      "x": 640,
+      "y": 440,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d422",
+      "type": "file",
+      "file": "10 데일리/2026-10-16.md",
+      "x": 640,
+      "y": 620,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "w43",
+      "type": "file",
+      "file": "20 주간/2026-W43 주간회고.md",
+      "x": 1240,
+      "y": 80,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d430",
+      "type": "file",
+      "file": "10 데일리/2026-10-19.md",
+      "x": 1240,
+      "y": 260,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d431",
+      "type": "file",
+      "file": "10 데일리/2026-10-20.md",
+      "x": 1240,
+      "y": 440,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "d432",
+      "type": "file",
+      "file": "10 데일리/2026-10-25.md",
+      "x": 1240,
+      "y": 620,
+      "width": 440,
+      "height": 64
+    },
+    {
+      "id": "m",
+      "type": "file",
+      "file": "30 월간/2026-10 월간요약.md",
+      "x": 620,
+      "y": -300,
+      "width": 480,
+      "height": 64
+    },
+    {
+      "id": "note",
+      "type": "text",
+      "x": 1200,
+      "y": -300,
+      "width": 480,
+      "height": 140,
+      "text": "## 읽는 법\n\n아래에서 위로 읽는다. 날마다의 기록이 주간회고로, 주간회고가 월간요약으로 접혀 올라간다."
+    },
+    {
+      "id": "hab",
+      "type": "file",
+      "file": "40 습관/수면 습관.md",
+      "x": 0,
+      "y": -300,
+      "width": 480,
+      "height": 64
+    }
+  ],
+  "edges": [
+    {
+      "id": "e410",
+      "fromNode": "d410",
+      "fromSide": "top",
+      "toNode": "w41",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e411",
+      "fromNode": "d411",
+      "fromSide": "top",
+      "toNode": "w41",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e412",
+      "fromNode": "d412",
+      "fromSide": "top",
+      "toNode": "w41",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e420",
+      "fromNode": "d420",
+      "fromSide": "top",
+      "toNode": "w42",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e421",
+      "fromNode": "d421",
+      "fromSide": "top",
+      "toNode": "w42",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e422",
+      "fromNode": "d422",
+      "fromSide": "top",
+      "toNode": "w42",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e430",
+      "fromNode": "d430",
+      "fromSide": "top",
+      "toNode": "w43",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e431",
+      "fromNode": "d431",
+      "fromSide": "top",
+      "toNode": "w43",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e432",
+      "fromNode": "d432",
+      "fromSide": "top",
+      "toNode": "w43",
+      "toSide": "bottom"
+    },
+    {
+      "id": "m41",
+      "fromNode": "w41",
+      "fromSide": "top",
+      "toNode": "m",
+      "toSide": "bottom"
+    },
+    {
+      "id": "m42",
+      "fromNode": "w42",
+      "fromSide": "top",
+      "toNode": "m",
+      "toSide": "bottom"
+    },
+    {
+      "id": "m43",
+      "fromNode": "w43",
+      "fromSide": "top",
+      "toNode": "m",
+      "toSide": "bottom"
+    },
+    {
+      "id": "eh",
+      "fromNode": "hab",
+      "fromSide": "right",
+      "toNode": "m",
+      "toSide": "left",
+      "label": "바탕이 되는 습관"
+    },
+    {
+      "id": "n12",
+      "fromNode": "w41",
+      "fromSide": "right",
+      "toNode": "w42",
+      "toSide": "left",
+      "label": "다음 주"
+    },
+    {
+      "id": "n23",
+      "fromNode": "w42",
+      "fromSide": "right",
+      "toNode": "w43",
+      "toSide": "left",
+      "label": "다음 주"
+    }
+  ]
+}

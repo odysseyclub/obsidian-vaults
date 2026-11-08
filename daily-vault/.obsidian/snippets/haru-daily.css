@@ -1,0 +1,28 @@
+/* 데일리 노트: 한 줄 인용 카드와 체크리스트를 둥글고 부드럽게 */
+.callout[data-callout="quote"] {
+  border-radius: 14px;
+  background: rgba(167, 139, 218, 0.10);
+}
+.callout[data-callout="quote"] .callout-title { font-weight: 700; }
+
+/* 체크박스: 동그랗게, 완료하면 연한 초록 */
+.markdown-rendered input[type="checkbox"],
+.markdown-source-view.mod-cm6 input[type="checkbox"] {
+  border-radius: 50%;
+}
+.markdown-rendered input[type="checkbox"]:checked,
+.markdown-source-view.mod-cm6 input[type="checkbox"]:checked {
+  background-color: #8fd18a;
+  border-color: #8fd18a;
+}
+/* 완료한 항목은 흐리게. 취소선은 쓰지 않는다 */
+.markdown-rendered .task-list-item.is-checked {
+  color: var(--text-muted);
+}
+
+/* 속성 칸을 얇은 상자로 */
+.metadata-container {
+  background: var(--background-secondary);
+  border-radius: 12px;
+  padding: 6px 12px;
+}

@@ -1,0 +1,25 @@
+/* 카드 박스 세 종류. 파랑은 사람이 쓴 것, 초록은 사람이 확인한 것, 회색은 AI의 가상 출력. */
+.callout[data-callout="prompt"] {
+  --callout-color: 43, 125, 233;
+  --callout-icon: lucide-message-square;
+  background: rgba(43, 125, 233, 0.07);
+  border-left: 4px solid rgb(43, 125, 233);
+  border-radius: 0 10px 10px 0;
+}
+.callout[data-callout="check"] {
+  --callout-color: 38, 166, 91;
+  --callout-icon: lucide-shield-check;
+  background: rgba(38, 166, 91, 0.08);
+  border-left: 4px solid rgb(38, 166, 91);
+  border-radius: 0 10px 10px 0;
+}
+.callout[data-callout="sample"] {
+  --callout-color: 130, 130, 130;
+  --callout-icon: lucide-sparkles;
+  background: transparent;
+  border: 1.5px dashed rgba(130, 130, 130, 0.7);
+  border-radius: 10px;
+}
+.callout[data-callout="sample"] .callout-title { font-style: italic; }
+.callout[data-callout="prompt"] .callout-content,
+.callout[data-callout="check"] .callout-content { font-size: 0.95em; }

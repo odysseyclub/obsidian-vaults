@@ -1,0 +1,25 @@
+
+filters:
+  and:
+    - file.inFolder("10 멤버")
+    - 'type == "멤버"'
+properties:
+  file.name:
+    displayName: "멤버"
+views:
+  - type: cards
+    name: "멤버 카드"
+    order:
+      - file.name
+      - 영문명
+      - 역할
+      - 포지션
+  - type: table
+    name: "멤버 표"
+    order:
+      - file.name
+      - 영문명
+      - 역할
+      - 포지션
+      - source
+      - 확인

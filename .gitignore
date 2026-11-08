@@ -1,0 +1,9 @@
+.DS_Store
+Icon
+Icon?
+*.zip
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+**/.trash/
+dist/

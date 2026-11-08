@@ -1,0 +1,10 @@
+/* 시험 전 개념 지도 Canvas 그룹 색감: 라이트 배경에서 부드럽게 */
+body {
+  --canvas-color-1: 232, 112, 112; /* 감각·주의 */
+  --canvas-color-4: 76, 175, 130;  /* 장기기억 */
+  --canvas-color-5: 70, 170, 200;  /* 단기·작업기억 */
+  --canvas-color-6: 150, 120, 220; /* 부호화·인출 */
+}
+.canvas-node-label { font-weight: 600; font-size: 1.1em; }
+.canvas-node[data-color] .canvas-node-container { border-radius: 10px; }
+.canvas-node-content .markdown-preview-view { font-size: 0.95em; }

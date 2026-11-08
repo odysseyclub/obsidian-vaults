@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "moonstone",
+  "accentColor": "#4c7df0",
+  "baseFontSize": 17,
+  "enabledCssSnippets": ["cogpsy-concept", "cogpsy-canvas"],
+  "translucency": false
+}

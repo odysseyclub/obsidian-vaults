@@ -1,0 +1,34 @@
+filters:
+  and:
+    - file.inFolder("10 데일리")
+    - file.ext == "md"
+properties:
+  note.주차:
+    displayName: 주차
+  note.수면시간:
+    displayName: 수면(시간)
+  note.운동:
+    displayName: 운동(분)
+  note.독서쪽수:
+    displayName: 독서(쪽)
+  note.기분:
+    displayName: 기분
+views:
+  - type: table
+    name: 주별로 묶기
+    groupBy:
+      property: note.주차
+      direction: ASC
+    order:
+      - file.name
+      - note.수면시간
+      - note.운동
+      - note.독서쪽수
+      - note.기분
+    sort:
+      - property: file.name
+        direction: ASC
+    summaries:
+      note.수면시간: Average
+      note.운동: Sum
+      note.독서쪽수: Sum

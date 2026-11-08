@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Soft Paper",
+  "theme": "moonstone",
+  "accentColor": "#a8754f",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "paper-callouts",
+    "paper-notes"
+  ],
+  "translucency": false
+}

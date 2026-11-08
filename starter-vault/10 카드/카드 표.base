@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.inFolder("10 카드")
+    - file.ext == "md"
+properties:
+  note.type:
+    displayName: 종류
+  note.도구:
+    displayName: 도구
+  note.status:
+    displayName: 상태
+views:
+  - type: table
+    name: 카드 목록
+    order:
+      - file.name
+      - note.type
+      - note.도구
+      - note.status
+      - file.ctime

@@ -1,0 +1,14 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Prism",
+  "accentColor": "#b983ff",
+  "baseFontSize": 17,
+  "translucency": false,
+  "enabledCssSnippets": [
+    "MCL Gallery Cards",
+    "rescene-infobox",
+    "rescene-hero",
+    "rescene-callouts",
+    "rescene-nobanner"
+  ]
+}
