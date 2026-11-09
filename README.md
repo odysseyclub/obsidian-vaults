@@ -19,6 +19,8 @@
 | 볼트 | 누구의 볼트 | 테마 | 노트 | 처음 볼 곳 |
 |---|---|---|---|---|
 | [`starter-vault`](starter-vault) | 오늘 처음 옵시디언을 여는 사람 | 기본 | 10 | `00 시작/시작하기` |
+| [`starter-vault-practice`](starter-vault-practice) | 실습 시작 때 여는 깨끗한 사본(starter-vault와 같은 내용) | 기본 | 10 | `00 시작/시작하기` |
+| [`starter-vault-완성본`](starter-vault-완성본) | 실습을 끝낸 정답 상태(발표자 확인용) | 기본 | 14 | `README-완성본` |
 | [`cogpsy-vault`](cogpsy-vault) | 시험을 준비하는 심리학과 학부생(인지심리학) | Minimal 라이트 | 46 | `00 시작/시작하기` |
 | [`rescene-vault`](rescene-vault) | 5인조 그룹을 위키처럼 정리하는 팬(덕질 위키) | Prism 다크 | 51 | `00 대문/리센느` |
 | [`novel-vault`](novel-vault) | 웹소설 연재를 준비하는 지망생(가상 세계관) | Cybertron 다크 | 35 | `00 대문/대문` |

@@ -1,0 +1,9 @@
+{
+  "showTags": false,
+  "colorGroups": [
+    {"query": "path:\"00 시작\"", "color": {"a": 1, "rgb": 5025616}},
+    {"query": "path:\"10 카드\"", "color": {"a": 1, "rgb": 4235519}},
+    {"query": "path:\"20 연습\"", "color": {"a": 1, "rgb": 16750848}},
+    {"query": "path:\"90 템플릿\"", "color": {"a": 1, "rgb": 10395294}}
+  ]
+}
